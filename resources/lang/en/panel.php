@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'Raja VideoGraph',
+    'site_title' => 'RajaEvents',
 ];

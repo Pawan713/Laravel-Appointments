@@ -1,6 +1,10 @@
 <?php
 
-Route::redirect('/', '/login');
+
+Route::get('/', function () {
+    return view('fronted.welcome');
+});
+// Route::redirect('/', '/login');
 Route::redirect('/home', '/admin');
 Auth::routes(['register' => true]);
 
